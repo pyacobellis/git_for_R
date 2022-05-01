@@ -1,3 +1,8 @@
+# These functions are self-derived statistics functions.
+# Can use to check output of Base R mean, sd functions.
+
+# Calculate Mean of a vector
+
 mean_py <- function(x){
 
   
@@ -6,7 +11,9 @@ mean_py <- function(x){
   mean_x = sum_x / length(x)
   
   return(mean_x)
+
   
+# Calculate Standard Deviation of a vector  
   
 }
 
@@ -25,5 +32,3 @@ sd_py <- function(x) {
   
 }
 
-sd_py(vec1)
-sd(vec1)
